@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="author" content="Elega">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Elega's Projects</title>
+    <title>Yimin Wei's Projects</title>
 
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/bootstrap_002.css">
@@ -66,11 +66,11 @@
               <li><a href="https://github.com/dadingding/MusicGloves" target="_blank">Android Part Source Code</a></li>
               <li><a href="http://scitech.people.com.cn/n/2014/0828/c1057-25556382.html" target="_blank">News Report 1</a>, <a href="http://www.sjtu.edu.cn/info/1489/61130.htm" target="_blank">News Report 2</a></li>
               <li>Wearable portable entertainment equipment<br></li>
-              <li>This is a pair of gloves with pressure sensors. 
-Sensors are connected with a SCM. Pressure data are collected and sent 
-to one Android device through WiFi.<br>
-              The Android App will get pressure data and simulate the 
-sound of guitar, drum and piano.User can switch instrument.<br>
+              <li>Installed pressure transducers on the finger parts of gloves, 
+			  the transducers connected with SCM, 
+			  transfer pressure information to Android WiFi AP by WiFi Module<br>
+              The cellphone app can get pressure data and simulate the 
+sound of guitar, drum or piano.<br>
               You are able to save your performance and upload it to the cloud and download it into another Android device.<br>
               You can also cooperate with your friends to play the same 
 song using ONLY ONE phone and a number of gloves like playing a duet.
@@ -103,24 +103,25 @@ song using ONLY ONE phone and a number of gloves like playing a duet.
       <hr>
 
 
-      <p class="text-danger project-name"><strong>Particle Simulation about Reclaiming on Sand Piles using CUDA</strong> [C++, CUDA] | 2015.6 ~ 2015.9</p>
+      <p class="text-danger project-name"><strong>Particle Simulation of DEM-BCRE Model based on CUDA</strong> [C++, CUDA] | 2015.6 ~ 2015.9</p>
       <div class="row">
           <div class="col-md-6">
               <ul>
                   <li>Particle simulation based on GPU parallel computing,inspired by this paper<a href="http://dalab.se.sjtu.edu.cn/%7Ebo/papers/bo_sand_final.pdf" target="_blank">(Here)</a><br></li>
-                  <li>Reach nearly real-time rendering with the help of CUDA<br></li>
+                  <li>Reached nearly real-time rendering with the help of CUDA<br></li>
                   <li>
-                      Use the DEM(Discrete Element Method) to simulate particles on the surface<br>
-                      Internal particles are computed by the BCRE method.<br>
+					  Optimized the former DEM-BCRE algorithm:<br>	
+                      Used the DEM(Discrete Element Method) to simulate particles on the surface<br>
+                      Internal particles were computed by the BCRE method.<br>
                       Some modifications were made in order to apply this method to CUDA.<br>
-                  </li><li>   The simulation speed increased by 140 times compared with the original one implemented in the paper.<br></li>
-                  <li>   An industrial scene are built to display our performance.</li>
+                  </li><li>   The simulation efficiency increased by 140 times compared with the original one implemented in the paper.<br></li>
+                  <li>  Built a industrial scene of conveyor transferring sand piles</li>
               </ul>
           </div>
 		  <div class="col-md-6">
               <center>
 				<video controls="controls" height="240" width="320">
-				  <source src="projects_files/pj_v2.webm" type="video/webm">
+				  <source src="video/pj_v2.webm" type="video/webm">
 				Your browser does not support video
 				</video>
 
@@ -136,14 +137,14 @@ song using ONLY ONE phone and a number of gloves like playing a duet.
                  <div class="col-md-6">
                    <ul>
                        <li>Distributed information collection in a farmland</li>
-                       <li>Sensors in SMCs collect a variety kind of data<br>
-                         . SMCs and the Android device are connected 
-either by Wi-Fi or Bluetooth 4.0.open Wi-Fi AP or Bluetooth 4.0.<br>  </li>
+                       <li>Sensors in SMCs can collect a variety kind of data.<br>
+                         SMCs and one Android ending are connected 
+either by Wi-Fi or Bluetooth 4.0.<br>  </li>
                        <li>
                            The Android device can display the current 
 environment in the farmland, including temperature, humidity and light 
 intensity.<br>
-                           If there are some condition which may impair the crops, they will be recorded.
+                           If crops may be impaired in the current environment, the app can remind the user.
                        </li>
                      </ul>
                  </div>
@@ -159,21 +160,21 @@ intensity.<br>
       <h2>Game Projects</h2>
       <hr>
 
-      <p class="text-danger project-name"><strong>The New Civilization</strong> (Project for <em>Design and Development of Game</em>) [Unity3D, C#] | 2015.4 ~ 2015.6</p>
+      <p class="text-danger project-name"><strong>Game Design: The New Civilization</strong> (Project for <em>Design and Development of Game</em>) [Unity3D, C#] | 2015.4 ~ 2015.6</p>
       <div class="row">
           <div class="col-md-6">
               <ul>
-                  <li>A SLG and RTS game, developed by Unity3D and C#.</li>
-                  <li>Two Phase: Strategic Phase and Battle Phase</li>
-                  <li>In the Strategic phase, player build units and deploy them to some place using 2D UI like a board game<br>
-                      In the Battle phase, player control his units to beat his enemy in a 3D battle scene.
+                  <li>A SLG & RTS game, developed by Unity3D and C#.</li>
+                  <li>Included two phase:the strategic phase and the battle phase</li>
+                  <li>In the Strategic phase, player builds units and deploys them in a 2D interface like a board game<br>
+                      In the Battle phase, player controls his units to beat his enemy in a 3D battle scene.
                   </li>
               </ul>
           </div>
           <div class="col-md-6">
               <center>
 				<video controls="controls" height="240" width="320">
-				  <source src="projects_files/pj_v1.webm" type="video/webm">
+				  <source src="video/pj_v1.webm" type="video/webm">
 				Your browser does not support video
 				</video>
 
@@ -183,16 +184,16 @@ intensity.<br>
       <hr>
 
 
-      <p class="text-danger project-name"><strong>Battle City</strong> (Project for <em>Practice of Software Development</em>)  [C++,Windows API] | 2013.6 ~ 2013.9</p>
+      <p class="text-danger project-name"><strong>Game Design:Battle City</strong> (Project for <em>Practice of Software Development</em>)  [C++,Windows API] | 2013.6 ~ 2013.9</p>
       <div class="row">
           <div class="col-md-6">
               <ul>
                   <li>A 2D Game Coping the Battle City on the NES</li>
-                  <li>A self-made game engine according to the XNA engine<br>
-                  Some basic game concepts are included in my engine: the Game Loop and Game Components.
+                  <li>Made a simple game engine according to the XNA engine<br>
+                  Some basic game concepts are included: the game loop and game components.
                   </li>
-                  <li>3 Stages, 4 Kinds of Tank<br>
-                      Multi-play mode is supported
+                  <li>3 Stages, 4 Kinds of Tank,<br>
+                      Multi-play mode is supported.
                   </li>
               </ul>
           </div>
@@ -212,9 +213,9 @@ intensity.<br>
           <div class="col-md-6">
               <ul>
                   <li>A program to judge the quality of the hand skin</li>
-                  <li>Collect eigenvalues from a skin photo.<br>
-                      Skin quality are evaluated by these eigenvalues.<br>
-                      May give the person some advice.<br>
+                  <li>Processed photos with OpenCV.<br>
+                      Scored the skin based on eigenvalues such as the texture of wrinkles and the color of skin.<br>
+                      May give the person some advice about skin care.<br>
                   </li>
               </ul>
           </div>
@@ -228,18 +229,16 @@ intensity.<br>
 
 
 
-             <p class="text-danger project-name"><strong>3D Garden</strong> (Project for <em>Computer Graphics</em>) [C++, OpenGL] | 2014.11 ~ 2015.1</p>
+             <p class="text-danger project-name"><strong>3D Garden Virtual walk-through System</strong> (Project for <em>Computer Graphics</em>) [C++, OpenGL] | 2014.11 ~ 2015.1</p>
              <div class="row">
                  <div class="col-md-6">
                  <ul>
-                     <li>A 3D Garden</li>
-                     <li>User can wander in the garden.<br>
-                         Flowers and Trees can be planted in the garden.Their color and height can be changed by clicking them.<br>
-                         Supported to simulate the effect of 
-snowing.Snows may pile up on the petals and may collapse if piles are 
-too high.
+                     <li>A virtual 3D garden</li>
+                     <li>Users can wander in the garden. <br>
+                         Users can grow flowers and change the types (parameters) of flowers<br>
+                         Simulated the drop of snow,finished collision detection between snowflake and ground or flowers.
                      </li>
-                     <li>Can be saved and reloaded next time</li>
+                     <li>User can save the scene and reload it next time.</li>
                  </ul>
                  </div>
 				  <div class="col-md-3">
@@ -260,20 +259,19 @@ too high.
 
              <p class="text-danger project-name"><strong>JOS-Kernel Implementation</strong> (Project for <em> Advanced Operating Systems Implementation</em>) [C] | 2014.9 ~ 2014.12</p>
              <ul>
-                 <li>Task based on MIT Operating Systems course 6.828.</li>
-                 <li>A series of OS operation are implemented,including booting, paging, context switch, and file systems of JOS-Kernel.</li>
+                 <li>Assignment based on MIT Operating Systems course 6.828.</li>
+                 <li>Realized a series of OS operation including booting, paging, context switch, and file systems of JOS-Kernel.</li>
              </ul>
           <hr>
 
 
-             <p class="text-danger project-name"><strong>Book Store</strong> (Project for <em>Database and Web Application</em>) [Java, JS, SSH, MySQL] | 2014.4 ~ 2014.6</p>
+             <p class="text-danger project-name"><strong>Online Bookstore System </strong> (Project for <em>Database and Web Application</em>) [Java, JS, SSH, MySQL] | 2014.4 ~ 2014.6</p>
              <div class="row">
              <div class="col-md-6">
 			 <ul>
-                 <li>Using <em>Java EE</em>, <em>SSH</em>, <em>MySQL</em>, <em>JqueryUI</em> to develop an online Book Store.</li>
-                 <li>CRUD on Datebase <br>
-                    Buying books and paying <br>
-                    Sales Statistics
+                 <li>Used <em>Java EE</em>, <em>SSH</em>, <em>MySQL</em>, <em>JqueryUI</em> to develop an online Book Store.</li>
+                 <li>Linked the webpage with a database, responded the operation from front-end.<br>
+				 Realized user register, login, sales amount statistics and administrator operation function, etc.
                  </li>
              </ul>
 			 </div>
@@ -290,8 +288,8 @@ too high.
 
              <p class="text-danger project-name"><strong>Data Store and Development of Social Application</strong> (Project for <em>Data Structure</em>) [C++] | 2013.11 ~ 2013.12</p>
              <ul>
-                 <li>Develop a Date System like <em>Twitter</em> , UI are not included.</li>
-                 <li>Tree, Hashmap, Linked-list and other data structures are used.</li>
+                 <li>Developed a Date System like <em>Twitter</em>. UI were not included.</li>
+                 <li>Used tree, hashmap, linked-list and other data.</li>
                  <li>Passed <strong>mega-level data</strong> and <strong>memory leaking</strong> test.</li>
              </ul>
           <hr>
@@ -302,9 +300,9 @@ too high.
              <div class="row">
                  <div class="col-md-6">
                    <ul>
-                       <li>Tools to parsing XML data</li>
-                       <li>Statistical data from the The World Bank, organized by XML </li>
-                       <li>Read date from XML and query some value</li>
+                       <li>Tools to parse XML data</li>
+                       <li>Statistical data from the The World Bank, organized by XML. </li>
+                       <li>Read date from XML and query some value.</li>
                        <li>Statistical graph can be generated. </li>
 
                    </ul>
@@ -317,7 +315,7 @@ too high.
     </div>
     <hr>
     <center>
-    Last Update: 2015/08/08
+    Last Update: 2015/09/08
     </center>
     <br><br>
 
